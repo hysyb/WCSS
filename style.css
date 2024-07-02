@@ -14,34 +14,95 @@ body{
 }
 .topBar{
     display: flex;
+    justify-content: space-between;
     height: 140px;
     top:17px;
     width: 100vw;
 }
 ul{
     list-style: none;
-    justify-self: flex-end;
+    margin-right: 6em;
+    margin-top: 4.5em;
 }
 .topBarLinks{
-    justify-self: flex-end;
-    gap: 30px;
+    
+    gap: 100px;
     text-decoration: none;
     display: flex;
 }
 .mainSection{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     height: 673px;
-    width: 100vw;
+    width: 1440px;
+    background-image: url("./img/HeroBG.png");
+    color: white;
+    text-align: center;
+}
+.bigText{
+    font-size: 3em;
+}
+.tealText{
+    color:#389796;
+}
+.bigBold{
+    font-weight: 800;
+    font-size: 2em;
+}
+.paddingTop{
+    padding-top: 0.75em;
 }
 .servicesSection{
-    height: 536px;
+    height: 620px;
     width: 100vw;
+    display: flex;
+    padding-top: 1em;
 }
+.servicesSection img{
+   
+}
+.servicesSectionLeftSide{
+    width: 40%;
+    padding-left: 4.5em;
+
+}
+.servicesSectionRightSide{
+    display: grid;
+    grid-gap: 10px;
+    width: 20%;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 10px;
+  }
+  
+  .first {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .second {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .third {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+  }
+  
 .testimonialSection{
     height: 557px;
-    width: 100vw;
+    width: 1440px;
+    background-image: url("./img/Rectangle13.png");
+    text-align: center;
+    color: white;
+    font-size: 2em;
 }
 
 button{
+    height: 53px;
     width: 315px;
     border: 3px solid #FFFFFF;
     border-radius: 18px;
@@ -50,11 +111,31 @@ button{
     font-weight: 800;
     font-size: 17px;
     line-height: 21px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: #FFFFFF;
+    background: unset;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+
+button:hover{
+background: #389796;
+border-color: #389796;
+border-radius: 18px;
+width: 315px;
+height: 53px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
