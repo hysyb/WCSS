@@ -174,8 +174,31 @@ color: #FFFFFF;
         background-color: #389796;
         width: 100%;
     }
+    .servicesSection{
+        height: auto;
+    }
     .servicesSectionRightSide{
         display: none;
     }
-    
+    .testimonialSection{
+        height: auto;
+    }
+    .testimonialImgs{
+        display: flex;
+        flex-direction: column;
+        padding-left: 9vw;
+    }
+    .testimonialImgs img{
+        max-width: 75vw;
+    }
+    .gallerySection{
+        height: auto;
+    }
+    .galleryImages{
+        display: flex;
+        flex-direction: column;
+    }
+    .galleryImages img{
+        padding-bottom: 10px;
+    }
 }
