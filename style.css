@@ -169,4 +169,13 @@ color: #FFFFFF;
     .topOfPageLine{
         display: none;
     }
+    .mainSection{
+        background-image: none;
+        background-color: #389796;
+        width: 100%;
+    }
+    .servicesSectionRightSide{
+        display: none;
+    }
+    
 }
