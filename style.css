@@ -30,6 +30,11 @@ ul{
     text-decoration: none;
     display: flex;
 }
+.mainSectionWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .mainSection{
     align-items: center;
     justify-content: center;
@@ -98,7 +103,10 @@ ul{
     grid-row: 2 / 2;
     max-height: 265px;
   }
-  
+.testimonialWrapper{
+    display: flex;
+    justify-content: center;
+}
 .testimonialSection{
     height: 557px;
     width: 1440px;
@@ -166,8 +174,26 @@ color: #FFFFFF;
 }
 
 @media (max-width:480px){
+    .topBar{
+        width: 90vw;
+    }
+    .logo{
+        width: 200px;
+        height: 110px;
+        align-self: center;
+    }
+    .topBarLinks{
+        display: none;
+    }
+    .hamburgerMenu {
+        width: 35px; 
+        height: 35px;
+        background: linear-gradient(#202020 50%, #55555500 0) 0 0/100% 40%;
+        align-self: center;
+      }
     .topOfPageLine{
         display: none;
+        
     }
     .mainSection{
         background-image: none;
